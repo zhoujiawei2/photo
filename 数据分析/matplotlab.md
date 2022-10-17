@@ -10,14 +10,24 @@ axis轴，指的是x轴或者是y轴这种轴
 	y=[3,4,1,7]
 	plt.plot(x,y)
 	plt.show()
+	#show就会清楚plt中的内容
 ```  
 figure图形图标的意思，在这里指画的图 ，figsize图片大小，dpi清晰程度（每英尺像素点数）
 ```python
 	fig=plt.figure(figsize=(20,8),dpi=80)
 	
 ```  
+图片保存
+```python
+	plt.savefig("./t1.png")
+	#.svg是矢量图格式，放大不会有锯齿
+	
+```  
+设置刻度
+```python
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0NDQyNjY1LDY4MDM4MDMxMiwxNjc3MD
-c1NjQzLC0yMTMzNTUyNTMwLDYyMDk4NTQwMCw1NzgyOTA0OSwt
-MTg4NDkwMTQxNCw1NzgyOTA0OV19
+eyJoaXN0b3J5IjpbLTEwNTczNDU2ODEsNjgwMzgwMzEyLDE2Nz
+cwNzU2NDMsLTIxMzM1NTI1MzAsNjIwOTg1NDAwLDU3ODI5MDQ5
+LC0xODg0OTAxNDE0LDU3ODI5MDQ5XX0=
 -->
