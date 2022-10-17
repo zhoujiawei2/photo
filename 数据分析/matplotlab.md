@@ -34,9 +34,13 @@ plt.yticks(x)#x轴
 a=["1","2","rr","1"]
 plt.xticks(range(a.length),a)
 ```
-
+```python
+#如果想让刻度文字方向旋转
+x=range(50)
+plt.xticks(x,rotation=90)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTAwMzk5MSwtNTA3NjQ4Mjk5LDE0Mz
+eyJoaXN0b3J5IjpbLTM4MjA4NTg1MSwtNTA3NjQ4Mjk5LDE0Mz
 U3NjEyLDY4MDM4MDMxMiwxNjc3MDc1NjQzLC0yMTMzNTUyNTMw
 LDYyMDk4NTQwMCw1NzgyOTA0OSwtMTg4NDkwMTQxNCw1NzgyOT
 A0OV19
