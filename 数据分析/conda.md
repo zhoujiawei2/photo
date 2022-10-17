@@ -14,11 +14,11 @@ conda create -n name python=version 创建环境
 
 activate name 激活一个环境
 
-conda deactivate name 退出当前环境
+conda deactivate 退出当前环境
 
 conda remove -n name --all 删除一个环境
 
 conda env list 查看所有虚拟环境
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTMxOTkzMjVdfQ==
+eyJoaXN0b3J5IjpbMjAwODk1ODEyLC0xMzEzMTk5MzI1XX0=
 -->
