@@ -39,9 +39,17 @@ plt.xticks(range(a.length),a)
 x=range(50)
 plt.xticks(x,rotation=90)
 ```
+
+打出中文
+```python    
+plt.xticks(fontproperties="STSong")
+
+```
+
+用这个:import matplotlib matplotlib.rc("font",family='FangSong')
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjA4NTg1MSwtNTA3NjQ4Mjk5LDE0Mz
-U3NjEyLDY4MDM4MDMxMiwxNjc3MDc1NjQzLC0yMTMzNTUyNTMw
-LDYyMDk4NTQwMCw1NzgyOTA0OSwtMTg4NDkwMTQxNCw1NzgyOT
-A0OV19
+eyJoaXN0b3J5IjpbLTE2Mjk2NzU1NTEsLTM4MjA4NTg1MSwtNT
+A3NjQ4Mjk5LDE0MzU3NjEyLDY4MDM4MDMxMiwxNjc3MDc1NjQz
+LC0yMTMzNTUyNTMwLDYyMDk4NTQwMCw1NzgyOTA0OSwtMTg4ND
+kwMTQxNCw1NzgyOTA0OV19
 -->
