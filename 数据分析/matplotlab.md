@@ -47,10 +47,11 @@ plt.xticks(fontproperties="STSong")
 ```
 
 
-用这个:import matplotlib matplotlib.rc("font",family='FangSong')可以修改默认字体
+用这个:可以修改默认字体
+import matplotlib matplotlib.rc("font",family='FangSong')
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY0ODU0OTQsLTM4MjA4NTg1MSwtNT
-A3NjQ4Mjk5LDE0MzU3NjEyLDY4MDM4MDMxMiwxNjc3MDc1NjQz
-LC0yMTMzNTUyNTMwLDYyMDk4NTQwMCw1NzgyOTA0OSwtMTg4ND
-kwMTQxNCw1NzgyOTA0OV19
+eyJoaXN0b3J5IjpbLTIwMDE1MDIwNjYsLTE3NDY0ODU0OTQsLT
+M4MjA4NTg1MSwtNTA3NjQ4Mjk5LDE0MzU3NjEyLDY4MDM4MDMx
+MiwxNjc3MDc1NjQzLC0yMTMzNTUyNTMwLDYyMDk4NTQwMCw1Nz
+gyOTA0OSwtMTg4NDkwMTQxNCw1NzgyOTA0OV19
 -->
