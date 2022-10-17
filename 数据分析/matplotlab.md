@@ -55,12 +55,13 @@ import matplotlib matplotlib.rc("font",family='FangSong')
 import matplotlib.font_manager
 my_font=font_manager.FontProperties(fname="字体地址")
 
-之后在任意需要的地方加上fontproperties=my_font即可
+#之后在任意需要的地方加上fontproperties=my_font即可
+plt.xticks(fontproperties=my_font)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MzQ3ODM5MiwtMjAwMTUwMjA2NiwtMT
-c0NjQ4NTQ5NCwtMzgyMDg1ODUxLC01MDc2NDgyOTksMTQzNTc2
-MTIsNjgwMzgwMzEyLDE2NzcwNzU2NDMsLTIxMzM1NTI1MzAsNj
-IwOTg1NDAwLDU3ODI5MDQ5LC0xODg0OTAxNDE0LDU3ODI5MDQ5
-XX0=
+eyJoaXN0b3J5IjpbLTE1NzA0NzQ3ODEsLTIwMDE1MDIwNjYsLT
+E3NDY0ODU0OTQsLTM4MjA4NTg1MSwtNTA3NjQ4Mjk5LDE0MzU3
+NjEyLDY4MDM4MDMxMiwxNjc3MDc1NjQzLC0yMTMzNTUyNTMwLD
+YyMDk4NTQwMCw1NzgyOTA0OSwtMTg4NDkwMTQxNCw1NzgyOTA0
+OV19
 -->
