@@ -7,8 +7,18 @@ conda --version返回conda版本
 conda list 
 
 conda update matplotlib
-conda remobe
 
+conda remove matplotlib
+
+conda create -n name python=version
+
+activate name
+
+conda deactivate name
+
+conda remove -n name --all
+
+conda env list 查看s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODczNTA4MV19
+eyJoaXN0b3J5IjpbMTU5NzQ2ODcxOF19
 -->
