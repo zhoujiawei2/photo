@@ -25,10 +25,11 @@ figure图形图标的意思，在这里指画的图 ，figsize图片大小，dpi
 ```  
 设置刻度
 ```python
-plt.xticks()
+x=ran
+plt.xticks(x)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzUyMTcxOCw2ODAzODAzMTIsMTY3Nz
+eyJoaXN0b3J5IjpbMTI4NTA5MjMxNCw2ODAzODAzMTIsMTY3Nz
 A3NTY0MywtMjEzMzU1MjUzMCw2MjA5ODU0MDAsNTc4MjkwNDks
 LTE4ODQ5MDE0MTQsNTc4MjkwNDldfQ==
 -->
