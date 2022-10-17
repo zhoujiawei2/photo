@@ -53,12 +53,14 @@ import matplotlib matplotlib.rc("font",family='FangSong')
 可以引入一个设置一个字体变量
 ```python
 import matplotlib.font_manager
-my_front=font_manager.FontProperties(fname="d")
+my_font=font_manager.FontProperties(fname="字体地址")
+
+之后在任意需要的地方加上fontproperties=my_font即可
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4ODQ5MTk2LC0yMDAxNTAyMDY2LC0xNz
-Q2NDg1NDk0LC0zODIwODU4NTEsLTUwNzY0ODI5OSwxNDM1NzYx
-Miw2ODAzODAzMTIsMTY3NzA3NTY0MywtMjEzMzU1MjUzMCw2Mj
-A5ODU0MDAsNTc4MjkwNDksLTE4ODQ5MDE0MTQsNTc4MjkwNDld
-fQ==
+eyJoaXN0b3J5IjpbMTE1MzQ3ODM5MiwtMjAwMTUwMjA2NiwtMT
+c0NjQ4NTQ5NCwtMzgyMDg1ODUxLC01MDc2NDgyOTksMTQzNTc2
+MTIsNjgwMzgwMzEyLDE2NzcwNzU2NDMsLTIxMzM1NTI1MzAsNj
+IwOTg1NDAwLDU3ODI5MDQ5LC0xODg0OTAxNDE0LDU3ODI5MDQ5
+XX0=
 -->
