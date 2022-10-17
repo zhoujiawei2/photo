@@ -1,6 +1,6 @@
 > Written with [StackEdit中文版](https://stackedit.cn/).
 
-
+#
 axis轴，指的是x轴或者是y轴这种轴
 
 ```python
@@ -13,6 +13,7 @@ axis轴，指的是x轴或者是y轴这种轴
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzM1NTI1MzAsNjIwOTg1NDAwLDU3OD
-I5MDQ5LC0xODg0OTAxNDE0LDU3ODI5MDQ5XX0=
+eyJoaXN0b3J5IjpbMTYwODM2OTI2MSwtMjEzMzU1MjUzMCw2Mj
+A5ODU0MDAsNTc4MjkwNDksLTE4ODQ5MDE0MTQsNTc4MjkwNDld
+fQ==
 -->
