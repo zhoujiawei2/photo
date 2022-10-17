@@ -28,9 +28,10 @@ figure图形图标的意思，在这里指画的图 ，figsize图片大小，dpi
 x=range(50)
 plt.xticks(x)#x轴
 plt.yticks(x)#x轴
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTc2MTIsNjgwMzgwMzEyLDE2NzcwNz
-U2NDMsLTIxMzM1NTI1MzAsNjIwOTg1NDAwLDU3ODI5MDQ5LC0x
-ODg0OTAxNDE0LDU3ODI5MDQ5XX0=
+eyJoaXN0b3J5IjpbLTEzMzY3NDk2OTgsMTQzNTc2MTIsNjgwMz
+gwMzEyLDE2NzcwNzU2NDMsLTIxMzM1NTI1MzAsNjIwOTg1NDAw
+LDU3ODI5MDQ5LC0xODg0OTAxNDE0LDU3ODI5MDQ5XX0=
 -->
