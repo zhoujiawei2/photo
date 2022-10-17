@@ -11,13 +11,13 @@ axis轴，指的是x轴或者是y轴这种轴
 	plt.plot(x,y)
 	plt.show()
 ```  
-figure图形图标的意思，在这里指画的图
+figure图形图标的意思，在这里指画的图 ，figsize图片大小，dpi清晰程度（每英尺像素点数）
 ```python
 	fig=plt.figure(figsize=(20,8),dpi=80)
 	
 ```  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjA1OTg5Nyw2ODAzODAzMTIsMTY3Nz
-A3NTY0MywtMjEzMzU1MjUzMCw2MjA5ODU0MDAsNTc4MjkwNDks
-LTE4ODQ5MDE0MTQsNTc4MjkwNDldfQ==
+eyJoaXN0b3J5IjpbNjY0NDQyNjY1LDY4MDM4MDMxMiwxNjc3MD
+c1NjQzLC0yMTMzNTUyNTMwLDYyMDk4NTQwMCw1NzgyOTA0OSwt
+MTg4NDkwMTQxNCw1NzgyOTA0OV19
 -->
