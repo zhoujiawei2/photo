@@ -8,11 +8,11 @@ axis轴，指的是x轴或者是y轴这种轴
 		x=[1,2]
 		y=[3,4]
 		plt.plot(x,y)
-		plt.
+		plt.show()
 ```  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTc2MjM4NCw2MjA5ODU0MDAsNTc4Mj
-kwNDksLTE4ODQ5MDE0MTQsNTc4MjkwNDldfQ==
+eyJoaXN0b3J5IjpbLTIxMzM1NTI1MzAsNjIwOTg1NDAwLDU3OD
+I5MDQ5LC0xODg0OTAxNDE0LDU3ODI5MDQ5XX0=
 -->
