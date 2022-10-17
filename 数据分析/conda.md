@@ -2,23 +2,23 @@
 
 conda --version返回conda版本
  
- conda install matplotlib
+ conda install matplotlib 下载一个包
+ 
+conda list  展示当前所有包
 
-conda list 
+conda update matplotlib 更新一个包
 
-conda update matplotlib
+conda remove matplotlib 删除一个包
 
-conda remove matplotlib
+conda create -n name python=version 创建环境
 
-conda create -n name python=version
+activate name 激活一个环境
 
-activate name
+conda deactivate name 退出当前环境
 
-conda deactivate name
+conda remove -n name --all 删除一个环境
 
-conda remove -n name --all
-
-conda env list 查看s
+conda env list 查看所有虚拟环境
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzQ2ODcxOF19
+eyJoaXN0b3J5IjpbLTEzMTMxOTkzMjVdfQ==
 -->
