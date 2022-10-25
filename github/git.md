@@ -3,6 +3,7 @@
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 > [Learn Git Branching](https://learngitbranching.js.org/?locale=zh_CN)
+> git commit
 > git fetch 
 > git pull
 > git push
@@ -15,7 +16,10 @@
 > git cherry-pick 
 > git resort 
 > git reset
-> git 
+> git describe
+> git tag 
+> ^ 
+> ~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTc1MzE2Nl19
+eyJoaXN0b3J5IjpbLTYyNTQzODc0MF19
 -->
