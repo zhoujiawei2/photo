@@ -85,14 +85,15 @@ plt.legend()
 线颜色、风格、粗细、透明度的改变
 ```python
 plt.plot(x,y,color="orange"，linestyle='--',;linewidth=5,alpha=0.5)
-#
 
 ```
+
+![输入图片说明](https://github.com/zhoujiawei2/photo/blob/main/photoIn/image.png)![输入图片说明](/imgs/2022-10-30/cmmTGSFURlwCn52g.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjE0NjI4MzUsNTI3MzQ4NzcsLTIwNz
-M3Mzk1MDEsMzk3MTY1ODMyLC0xNTcwNDc0NzgxLC0yMDAxNTAy
-MDY2LC0xNzQ2NDg1NDk0LC0zODIwODU4NTEsLTUwNzY0ODI5OS
-wxNDM1NzYxMiw2ODAzODAzMTIsMTY3NzA3NTY0MywtMjEzMzU1
-MjUzMCw2MjA5ODU0MDAsNTc4MjkwNDksLTE4ODQ5MDE0MTQsNT
-c4MjkwNDldfQ==
+eyJoaXN0b3J5IjpbMTY1NzIzNTU0NywtMTY2MTQ2MjgzNSw1Mj
+czNDg3NywtMjA3MzczOTUwMSwzOTcxNjU4MzIsLTE1NzA0NzQ3
+ODEsLTIwMDE1MDIwNjYsLTE3NDY0ODU0OTQsLTM4MjA4NTg1MS
+wtNTA3NjQ4Mjk5LDE0MzU3NjEyLDY4MDM4MDMxMiwxNjc3MDc1
+NjQzLC0yMTMzNTUyNTMwLDYyMDk4NTQwMCw1NzgyOTA0OSwtMT
+g4NDkwMTQxNCw1NzgyOTA0OV19
 -->
