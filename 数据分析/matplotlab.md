@@ -73,8 +73,12 @@ plt.grid(alpha=0.4)
 
 ```
 在原图基础上进行调整显示
-
-plt.xlim()
+```python
+#显示一个范围
+plt.xlim(2.5,4.5)
+plt.ylim(1.5,6.5)
+```
+plt.ylim()
 
 对于一条线进行标注(图例)
 ```python
@@ -98,11 +102,11 @@ plt.plot(x,y,color="orange",linestyle='--',linewidth=5,alpha=0.5)
 plt.scatter(x,y)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTc3NTAwMSwtNDMyNTU5Nzc4LDI2MT
-YwMDIsLTE2NjE0NjI4MzUsNTI3MzQ4NzcsLTIwNzM3Mzk1MDEs
-Mzk3MTY1ODMyLC0xNTcwNDc0NzgxLC0yMDAxNTAyMDY2LC0xNz
-Q2NDg1NDk0LC0zODIwODU4NTEsLTUwNzY0ODI5OSwxNDM1NzYx
-Miw2ODAzODAzMTIsMTY3NzA3NTY0MywtMjEzMzU1MjUzMCw2Mj
-A5ODU0MDAsNTc4MjkwNDksLTE4ODQ5MDE0MTQsNTc4MjkwNDld
-fQ==
+eyJoaXN0b3J5IjpbMjQyOTA3Nzk4LC00MzI1NTk3NzgsMjYxNj
+AwMiwtMTY2MTQ2MjgzNSw1MjczNDg3NywtMjA3MzczOTUwMSwz
+OTcxNjU4MzIsLTE1NzA0NzQ3ODEsLTIwMDE1MDIwNjYsLTE3ND
+Y0ODU0OTQsLTM4MjA4NTg1MSwtNTA3NjQ4Mjk5LDE0MzU3NjEy
+LDY4MDM4MDMxMiwxNjc3MDc1NjQzLC0yMTMzNTUyNTMwLDYyMD
+k4NTQwMCw1NzgyOTA0OSwtMTg4NDkwMTQxNCw1NzgyOTA0OV19
+
 -->
