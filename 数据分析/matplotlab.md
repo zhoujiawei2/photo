@@ -3,7 +3,8 @@
 # matplotlib
 
 axis轴，指的是x轴或者是y轴这种轴
-plot
+
+多次plot可以产生多个线，只需要show一次即可
 ```python
 	from matplotlib import pyplot as plt
 	x=[1,2,5,6]
@@ -72,9 +73,9 @@ plt.grid(alpha=0.4)
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0NTAzNzYyLC0yMDczNzM5NTAxLDM5Nz
-E2NTgzMiwtMTU3MDQ3NDc4MSwtMjAwMTUwMjA2NiwtMTc0NjQ4
-NTQ5NCwtMzgyMDg1ODUxLC01MDc2NDgyOTksMTQzNTc2MTIsNj
-gwMzgwMzEyLDE2NzcwNzU2NDMsLTIxMzM1NTI1MzAsNjIwOTg1
-NDAwLDU3ODI5MDQ5LC0xODg0OTAxNDE0LDU3ODI5MDQ5XX0=
+eyJoaXN0b3J5IjpbMTQzNzI3NzE1MSwtMjA3MzczOTUwMSwzOT
+cxNjU4MzIsLTE1NzA0NzQ3ODEsLTIwMDE1MDIwNjYsLTE3NDY0
+ODU0OTQsLTM4MjA4NTg1MSwtNTA3NjQ4Mjk5LDE0MzU3NjEyLD
+Y4MDM4MDMxMiwxNjc3MDc1NjQzLC0yMTMzNTUyNTMwLDYyMDk4
+NTQwMCw1NzgyOTA0OSwtMTg4NDkwMTQxNCw1NzgyOTA0OV19
 -->
