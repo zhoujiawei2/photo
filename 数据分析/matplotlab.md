@@ -61,15 +61,20 @@ plt.xticks(fontproperties=my_font)
 
 添加描述信息
 ```python
-import matplotlib as plt
 plt.xlabel("")
 plt.ylabel("")
 plt.title("")
 ```
+
+网格透明度设置
+```python
+plt.grid(alpha=0.4)
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MTY1ODMyLC0xNTcwNDc0NzgxLC0yMD
-AxNTAyMDY2LC0xNzQ2NDg1NDk0LC0zODIwODU4NTEsLTUwNzY0
-ODI5OSwxNDM1NzYxMiw2ODAzODAzMTIsMTY3NzA3NTY0MywtMj
-EzMzU1MjUzMCw2MjA5ODU0MDAsNTc4MjkwNDksLTE4ODQ5MDE0
-MTQsNTc4MjkwNDldfQ==
+eyJoaXN0b3J5IjpbLTIwNzM3Mzk1MDEsMzk3MTY1ODMyLC0xNT
+cwNDc0NzgxLC0yMDAxNTAyMDY2LC0xNzQ2NDg1NDk0LC0zODIw
+ODU4NTEsLTUwNzY0ODI5OSwxNDM1NzYxMiw2ODAzODAzMTIsMT
+Y3NzA3NTY0MywtMjEzMzU1MjUzMCw2MjA5ODU0MDAsNTc4Mjkw
+NDksLTE4ODQ5MDE0MTQsNTc4MjkwNDldfQ==
 -->
