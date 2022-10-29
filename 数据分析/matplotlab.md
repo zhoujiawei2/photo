@@ -58,10 +58,16 @@ my_font=font_manager.FontProperties(fname="字体地址")
 #之后在任意需要的地方加上fontproperties=my_font即可
 plt.xticks(fontproperties=my_font)
 ```
+
+添加描述信息
+```python
+	plt.xlabel("")
+	plt.ylabel("")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzA0NzQ3ODEsLTIwMDE1MDIwNjYsLT
-E3NDY0ODU0OTQsLTM4MjA4NTg1MSwtNTA3NjQ4Mjk5LDE0MzU3
-NjEyLDY4MDM4MDMxMiwxNjc3MDc1NjQzLC0yMTMzNTUyNTMwLD
-YyMDk4NTQwMCw1NzgyOTA0OSwtMTg4NDkwMTQxNCw1NzgyOTA0
-OV19
+eyJoaXN0b3J5IjpbMzY1MDg4NzQ0LC0xNTcwNDc0NzgxLC0yMD
+AxNTAyMDY2LC0xNzQ2NDg1NDk0LC0zODIwODU4NTEsLTUwNzY0
+ODI5OSwxNDM1NzYxMiw2ODAzODAzMTIsMTY3NzA3NTY0MywtMj
+EzMzU1MjUzMCw2MjA5ODU0MDAsNTc4MjkwNDksLTE4ODQ5MDE0
+MTQsNTc4MjkwNDldfQ==
 -->
