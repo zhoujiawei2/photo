@@ -84,14 +84,15 @@ plt.legend()
 
 线颜色、风格、粗细、透明度的改变
 ```python
-plt.plot(x,y,color="orange"，linestyle='--')
+plt.plot(x,y,color="orange"，linestyle='--',;linewidth=5,alpha=0.5)
+#
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODE2NDQ1NSw1MjczNDg3NywtMjA3Mz
-czOTUwMSwzOTcxNjU4MzIsLTE1NzA0NzQ3ODEsLTIwMDE1MDIw
-NjYsLTE3NDY0ODU0OTQsLTM4MjA4NTg1MSwtNTA3NjQ4Mjk5LD
-E0MzU3NjEyLDY4MDM4MDMxMiwxNjc3MDc1NjQzLC0yMTMzNTUy
-NTMwLDYyMDk4NTQwMCw1NzgyOTA0OSwtMTg4NDkwMTQxNCw1Nz
-gyOTA0OV19
+eyJoaXN0b3J5IjpbLTE2NjE0NjI4MzUsNTI3MzQ4NzcsLTIwNz
+M3Mzk1MDEsMzk3MTY1ODMyLC0xNTcwNDc0NzgxLC0yMDAxNTAy
+MDY2LC0xNzQ2NDg1NDk0LC0zODIwODU4NTEsLTUwNzY0ODI5OS
+wxNDM1NzYxMiw2ODAzODAzMTIsMTY3NzA3NTY0MywtMjEzMzU1
+MjUzMCw2MjA5ODU0MDAsNTc4MjkwNDksLTE4ODQ5MDE0MTQsNT
+c4MjkwNDldfQ==
 -->
