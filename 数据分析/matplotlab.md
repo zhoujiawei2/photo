@@ -67,11 +67,14 @@ plt.ylabel("")
 plt.title("")
 ```
 
-网格透明度设置
+网格以及透明度设置
 ```python
 plt.grid(alpha=0.4)
 
 ```
+在原图基础上进行调整显示
+
+plt.xlim()
 
 对于一条线进行标注(图例)
 ```python
@@ -95,10 +98,11 @@ plt.plot(x,y,color="orange",linestyle='--',linewidth=5,alpha=0.5)
 plt.scatter(x,y)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjU1OTc3OCwyNjE2MDAyLC0xNjYxND
-YyODM1LDUyNzM0ODc3LC0yMDczNzM5NTAxLDM5NzE2NTgzMiwt
-MTU3MDQ3NDc4MSwtMjAwMTUwMjA2NiwtMTc0NjQ4NTQ5NCwtMz
-gyMDg1ODUxLC01MDc2NDgyOTksMTQzNTc2MTIsNjgwMzgwMzEy
-LDE2NzcwNzU2NDMsLTIxMzM1NTI1MzAsNjIwOTg1NDAwLDU3OD
-I5MDQ5LC0xODg0OTAxNDE0LDU3ODI5MDQ5XX0=
+eyJoaXN0b3J5IjpbMTkzOTc3NTAwMSwtNDMyNTU5Nzc4LDI2MT
+YwMDIsLTE2NjE0NjI4MzUsNTI3MzQ4NzcsLTIwNzM3Mzk1MDEs
+Mzk3MTY1ODMyLC0xNTcwNDc0NzgxLC0yMDAxNTAyMDY2LC0xNz
+Q2NDg1NDk0LC0zODIwODU4NTEsLTUwNzY0ODI5OSwxNDM1NzYx
+Miw2ODAzODAzMTIsMTY3NzA3NTY0MywtMjEzMzU1MjUzMCw2Mj
+A5ODU0MDAsNTc4MjkwNDksLTE4ODQ5MDE0MTQsNTc4MjkwNDld
+fQ==
 -->
