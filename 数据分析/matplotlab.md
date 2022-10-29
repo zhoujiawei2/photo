@@ -61,11 +61,13 @@ plt.xticks(fontproperties=my_font)
 
 添加描述信息
 ```python
-	plt.xlabel("")
-	plt.ylabel("")
+import matplotlib as plt
+plt.xlabel("")
+plt.ylabel("")
+plt.title("")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1MDg4NzQ0LC0xNTcwNDc0NzgxLC0yMD
+eyJoaXN0b3J5IjpbMzk3MTY1ODMyLC0xNTcwNDc0NzgxLC0yMD
 AxNTAyMDY2LC0xNzQ2NDg1NDk0LC0zODIwODU4NTEsLTUwNzY0
 ODI5OSwxNDM1NzYxMiw2ODAzODAzMTIsMTY3NzA3NTY0MywtMj
 EzMzU1MjUzMCw2MjA5ODU0MDAsNTc4MjkwNDksLTE4ODQ5MDE0
