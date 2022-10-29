@@ -75,13 +75,15 @@ plt.grid(alpha=0.4)
 
 对于一条线进行标注(图例)
 ```python
-plt.plot(x,y)
+plt.plot(x,y,label="313")
 plt.legend()
+#legend很特殊，在这里设置字体用prop=
+#其他都是frontprperties
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2MjE3NDE5LC0yMDczNzM5NTAxLDM5Nz
-E2NTgzMiwtMTU3MDQ3NDc4MSwtMjAwMTUwMjA2NiwtMTc0NjQ4
-NTQ5NCwtMzgyMDg1ODUxLC01MDc2NDgyOTksMTQzNTc2MTIsNj
-gwMzgwMzEyLDE2NzcwNzU2NDMsLTIxMzM1NTI1MzAsNjIwOTg1
-NDAwLDU3ODI5MDQ5LC0xODg0OTAxNDE0LDU3ODI5MDQ5XX0=
+eyJoaXN0b3J5IjpbNTI3MzQ4NzcsLTIwNzM3Mzk1MDEsMzk3MT
+Y1ODMyLC0xNTcwNDc0NzgxLC0yMDAxNTAyMDY2LC0xNzQ2NDg1
+NDk0LC0zODIwODU4NTEsLTUwNzY0ODI5OSwxNDM1NzYxMiw2OD
+AzODAzMTIsMTY3NzA3NTY0MywtMjEzMzU1MjUzMCw2MjA5ODU0
+MDAsNTc4MjkwNDksLTE4ODQ5MDE0MTQsNTc4MjkwNDldfQ==
 -->
