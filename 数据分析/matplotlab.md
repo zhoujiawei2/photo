@@ -82,13 +82,13 @@ plt.legend()
 #legend()loc参数调整位置，prop调整字体
 ```
 
-线颜色的改变
+线颜色、风格、粗细、透明度的改变
 ```python
-plt.plot(x,y,color="orange")
+plt.plot(x,y,color="orange"，linestyle='--')
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NjY0ODk0MCw1MjczNDg3NywtMjA3Mz
+eyJoaXN0b3J5IjpbMTcyODE2NDQ1NSw1MjczNDg3NywtMjA3Mz
 czOTUwMSwzOTcxNjU4MzIsLTE1NzA0NzQ3ODEsLTIwMDE1MDIw
 NjYsLTE3NDY0ODU0OTQsLTM4MjA4NTg1MSwtNTA3NjQ4Mjk5LD
 E0MzU3NjEyLDY4MDM4MDMxMiwxNjc3MDc1NjQzLC0yMTMzNTUy
