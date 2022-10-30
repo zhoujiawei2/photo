@@ -152,7 +152,7 @@ plt.show(
 # 改进1: 去掉多余的坐标系
 # 面向对象(Object-oriented programming)精确语法
 fig, axes = plt.subplots(2, 2, figsize=(6, 6),
-                        facecolor="gre![输入图片说明](/imgs/2022-10-30/imyv9izffZkupcgq.png)y",  # 画面背景改为灰色
+                        facecolor="grey",  # 画面背景改为灰色
                         sharex=True, sharey=True)  # 共享xy轴坐标系
 axes[0, 0].bar(seasons, stock1)
 axes[0, 1].plot(seasons, stock2, "b^--")
@@ -175,11 +175,11 @@ fig.supxlabel("季度")
 ```
 ![输入图片说明](/imgs/2022-10-30/5YQUvrVC48SDJd8o.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM0NzEzNzMsMTYwMjY5NDEyLDUzOD
-g3MDkxMywxNjM2NzA1MTIwLDI0MjkwNzc5OCwtNDMyNTU5Nzc4
-LDI2MTYwMDIsLTE2NjE0NjI4MzUsNTI3MzQ4NzcsLTIwNzM3Mz
-k1MDEsMzk3MTY1ODMyLC0xNTcwNDc0NzgxLC0yMDAxNTAyMDY2
-LC0xNzQ2NDg1NDk0LC0zODIwODU4NTEsLTUwNzY0ODI5OSwxND
-M1NzYxMiw2ODAzODAzMTIsMTY3NzA3NTY0MywtMjEzMzU1MjUz
-MF19
+eyJoaXN0b3J5IjpbNjc2MjQ1MzEyLDE2MDI2OTQxMiw1Mzg4Nz
+A5MTMsMTYzNjcwNTEyMCwyNDI5MDc3OTgsLTQzMjU1OTc3OCwy
+NjE2MDAyLC0xNjYxNDYyODM1LDUyNzM0ODc3LC0yMDczNzM5NT
+AxLDM5NzE2NTgzMiwtMTU3MDQ3NDc4MSwtMjAwMTUwMjA2Niwt
+MTc0NjQ4NTQ5NCwtMzgyMDg1ODUxLC01MDc2NDgyOTksMTQzNT
+c2MTIsNjgwMzgwMzEyLDE2NzcwNzU2NDMsLTIxMzM1NTI1MzBd
+fQ==
 -->
