@@ -148,6 +148,7 @@ plt.show(
 
 ![输入图片说明](/imgs/2022-10-30/tMeFwqUkTGx9wJ6W.png)
 
+去掉多余的坐标系，同时使多个坐标系公用坐标轴，
 ```python
 # 改进1: 去掉多余的坐标系
 # 面向对象(Object-oriented programming)精确语法
@@ -175,26 +176,11 @@ fig.supxlabel("季度")
 ```
 ![输入图片说明](/imgs/2022-10-30/5YQUvrVC48SDJd8o.png)
 
+
+画一个3D图
 ```python[图片上传中...(image-R6mMyXLO1QKLE7Fx)]
 # 改进2: 利用右下角画一个3d图画
 # 面向对象OOP精确语法
-fig, axes = plt.subplots(2, 2, figsize=(6, 6),
-                        facecolor="grey",
-                        sharex=True, sharey=True)
-axes[0, 0].bar(seasons, stock1)
-axes[0, 1].plot(seasons, stock2, "b^--")
-ax = axes[1, 0]
-ax.scatter(seasons, stock2-stock1,
-           s=[10, 20, 50, 100],
-           c=['r', 'b', 'c', 'y'])
-ax.plot(seasons, stock2-stock1, "--", color="black")
-ax.set_ylabel("差价(股票1-股票2)")
-axes[0, 0].plot(seasons, stock1, 'r+-')
-fig.suptitle("股票分析图")
-fig.supylabel("股价")
-fig.supxlabel("季度")
-axes[0, 0].set_title("股票1")
-axes[0, 1].set_title("股票2")
 
 # 删除右下角坐标系
 axes[1, 1].remove()
@@ -221,7 +207,7 @@ plt.show()
 ```
 ![输入图片说明](/imgs/2022-10-30/FS0JOS5n4nczwnG7.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjE5NTU2OTEsNjc2MjQ1MzEyLDE2MD
+eyJoaXN0b3J5IjpbLTE5NTU5MDM0NTQsNjc2MjQ1MzEyLDE2MD
 I2OTQxMiw1Mzg4NzA5MTMsMTYzNjcwNTEyMCwyNDI5MDc3OTgs
 LTQzMjU1OTc3OCwyNjE2MDAyLC0xNjYxNDYyODM1LDUyNzM0OD
 c3LC0yMDczNzM5NTAxLDM5NzE2NTgzMiwtMTU3MDQ3NDc4MSwt
