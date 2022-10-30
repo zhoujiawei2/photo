@@ -121,33 +121,33 @@ plt.show()
 ```
 改进
 ```python
-# 改进2: 利用右下角画一个3d图画
-# 面向对象OOP精确语法
-fig, axes = plt.subplots(2, 2, figsize=(6,6),facecolor="grey",sharex=True, sharey=True)
-axes[0, 0].bar(seasons, stock1)
-axes[0, 1].plot(seasons, stock2, "b^--")
-ax = axes[1, 0]
-ax.scatter(seasons, stock2-stock1,
-		   s=[10, 20, 50, 100],
-           c=['r', 'b', 'c', 'y'])
-ax.plot(seasons, stock2-stock1, "--", color="black")
-ax.set_ylabel("差价(股票1-股票2)")
-axes[0, 0].plot(seasons, stock1, 'r+-')
-fig.suptitle("股票分析图")
-fig.supylabel("股价")
-fig.supxlabel("季度")
-axes[0, 0].set_title("股票1")
-axes[0, 1].set_title("股票2")
+# 面向对象(Object-oriented programming)精确语法
+# fig: 画面; axes: 2行2列坐标系（储存在numpy数组中）
+fig, axes = plt.subplots(2, 2, figsize=(6, 6))
+axes[0, 0].bar(seasons, stock1)  # 左上角(0行0列)坐标系
+axes[0, 1].plot(seasons, stock2, "b^--")  # 右上角(0行1列)坐标系
+ax = axes[1, 0]  # 左下角(1行0列)坐标系
+# 左下角画散点图(scatterplots)
+ax.scatter(seasons, # 季度（横坐标）
+           stock2-stock1,  # 股票差价（纵坐标）
+           s=[10, 20, 50, 100], # size字符大小
+           c=['r', 'b', 'c', 'y']) # color颜色
+
+axes[0, 0].set_title("股票1")  # 左上角(0行0列)标题
+axes[0, 1].set_title("股票2")  # 右上角(0行1列)标题
+ax.set_ylabel("差价(股票1-股票2)")  # 左下角(1行0列)y轴标注
+# plt.savefig("images/pic2_4.png")
+plt.show(
 ```
 
 
-![输入图片说明](/imgs/2022-10-30/XCJw8QPmDKmq4GNX.png)
+![输入图片说明](/imgs/2022-10-30/tMeFwqUkTGx9wJ6W.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQ1OTQyMjMsMTYwMjY5NDEyLDUzOD
-g3MDkxMywxNjM2NzA1MTIwLDI0MjkwNzc5OCwtNDMyNTU5Nzc4
-LDI2MTYwMDIsLTE2NjE0NjI4MzUsNTI3MzQ4NzcsLTIwNzM3Mz
-k1MDEsMzk3MTY1ODMyLC0xNTcwNDc0NzgxLC0yMDAxNTAyMDY2
-LC0xNzQ2NDg1NDk0LC0zODIwODU4NTEsLTUwNzY0ODI5OSwxND
-M1NzYxMiw2ODAzODAzMTIsMTY3NzA3NTY0MywtMjEzMzU1MjUz
-MF19
+eyJoaXN0b3J5IjpbLTc4MzQ3MzM2NywxNjAyNjk0MTIsNTM4OD
+cwOTEzLDE2MzY3MDUxMjAsMjQyOTA3Nzk4LC00MzI1NTk3Nzgs
+MjYxNjAwMiwtMTY2MTQ2MjgzNSw1MjczNDg3NywtMjA3MzczOT
+UwMSwzOTcxNjU4MzIsLTE1NzA0NzQ3ODEsLTIwMDE1MDIwNjYs
+LTE3NDY0ODU0OTQsLTM4MjA4NTg1MSwtNTA3NjQ4Mjk5LDE0Mz
+U3NjEyLDY4MDM4MDMxMiwxNjc3MDc1NjQzLC0yMTMzNTUyNTMw
+XX0=
 -->
