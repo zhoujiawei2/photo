@@ -249,9 +249,12 @@ gridspec可以用于自定义网格布局
 3.复用画图代码
 ![输入图片说明](/imgs/2022-10-30/xClRbxSXjeeep7sw.png)
 
-4
+4。动态图之类的和资源管理
+![输入图片说明](/imgs/2022-10-30/26Gn6n4ggL8XAkbq.png)
+
+widget是动态图
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODU5MTE4NSwzMDU2NDUwOTEsLTEwMD
+eyJoaXN0b3J5IjpbMTU4MTY1OTEzOCwzMDU2NDUwOTEsLTEwMD
 kwNzE1MTksLTEwNjIxOTAzNTUsNjc2MjQ1MzEyLDE2MDI2OTQx
 Miw1Mzg4NzA5MTMsMTYzNjcwNTEyMCwyNDI5MDc3OTgsLTQzMj
 U1OTc3OCwyNjE2MDAyLC0xNjYxNDYyODM1LDUyNzM0ODc3LC0y
