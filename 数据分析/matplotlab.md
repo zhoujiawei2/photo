@@ -255,9 +255,9 @@ gridspec可以用于自定义网格布局
 widget是动态图
 
 ## 自学方式
-
+![输入图片说明](/imgs/2022-10-30/xQUhQgzSDSOYypcG.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjIyMzU2NiwzMDU2NDUwOTEsLTEwMD
+eyJoaXN0b3J5IjpbMTYzNDQyODUwOCwzMDU2NDUwOTEsLTEwMD
 kwNzE1MTksLTEwNjIxOTAzNTUsNjc2MjQ1MzEyLDE2MDI2OTQx
 Miw1Mzg4NzA5MTMsMTYzNjcwNTEyMCwyNDI5MDc3OTgsLTQzMj
 U1OTc3OCwyNjE2MDAyLC0xNjYxNDYyODM1LDUyNzM0ODc3LC0y
