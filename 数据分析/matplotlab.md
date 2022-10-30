@@ -2,6 +2,8 @@
 
 # matplotlib
 
+## 基础共通知识
+
 axis轴，指的是x轴或者是y轴这种轴
 
 多次plot可以产生多个线，只需要show一次即可
@@ -102,7 +104,7 @@ plt.plot(x,y,color="orange",linestyle='--',linewidth=5,alpha=0.5)
 plt.scatter(x,y)
 ```
 
-##画多个图
+## 画多个图
 
 画两个图
 ```python
@@ -173,7 +175,7 @@ fig.supxlabel("季度")
 ```
 ![输入图片说明](/imgs/2022-10-30/5YQUvrVC48SDJd8o.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTY3OTc1MjUsMTYwMjY5NDEyLDUzOD
+eyJoaXN0b3J5IjpbLTExNTM0NzEzNzMsMTYwMjY5NDEyLDUzOD
 g3MDkxMywxNjM2NzA1MTIwLDI0MjkwNzc5OCwtNDMyNTU5Nzc4
 LDI2MTYwMDIsLTE2NjE0NjI4MzUsNTI3MzQ4NzcsLTIwNzM3Mz
 k1MDEsMzk3MTY1ODMyLC0xNTcwNDc0NzgxLC0yMDAxNTAyMDY2
