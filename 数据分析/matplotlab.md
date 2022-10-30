@@ -229,9 +229,15 @@ gridspec可以用于自定义网格布局
 ### figure相关的参数
 ![输入图片说明](/imgs/2022-10-30/Yh5XeNdtWX8rzzJK.png)
 
+## 流程
+风格模式很有用
+![输入图片说明](/imgs/2022-10-30/CiDnJT5tfKg2GwTL.png)
 
+![输入图片说明](/imgs/2022-10-30/1Oj5TXSQt0IwBmIN.png)
+
+![输入图片说明](/imgs/2022-10-30/02lTidEJ9L8kO11z.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzE5OTgwOCwtMTA2MjE5MDM1NSw2Nz
+eyJoaXN0b3J5IjpbMTUzODIyODE4NSwtMTA2MjE5MDM1NSw2Nz
 YyNDUzMTIsMTYwMjY5NDEyLDUzODg3MDkxMywxNjM2NzA1MTIw
 LDI0MjkwNzc5OCwtNDMyNTU5Nzc4LDI2MTYwMDIsLTE2NjE0Nj
 I4MzUsNTI3MzQ4NzcsLTIwNzM3Mzk1MDEsMzk3MTY1ODMyLC0x
