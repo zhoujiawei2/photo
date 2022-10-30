@@ -174,12 +174,58 @@ fig.supxlabel("季度")
 # plt.savefig("images/pic2_5.png", facecolor=fig.get_facecolor()) # 注: 保存图片底色要重新设置
 ```
 ![输入图片说明](/imgs/2022-10-30/5YQUvrVC48SDJd8o.png)
+
+```python[图片上传中...(image-R6mMyXLO1QKLE7Fx)]
+# 改进2: 利用右下角画一个3d图画
+# 面向对象OOP精确语法
+fig, axes = plt.subplots(2, 2, figsize=(6, 6),
+                        facecolor="grey",
+                        sharex=True, sharey=True)
+axes[0, 0].bar(seasons, stock1)
+axes[0, 1].plot(seasons, stock2, "b^--")
+ax = axes[1, 0]
+ax.scatter(seasons, stock2-stock1,
+           s=[10, 20, 50, 100],
+           c=['r', 'b', 'c', 'y'])
+ax.plot(seasons, stock2-stock1, "--", color="black")
+ax.set_ylabel("差价(股票1-股票2)")
+axes[0, 0].plot(seasons, stock1, 'r+-')
+fig.suptitle("股票分析图")
+fig.supylabel("股价")
+fig.supxlabel("季度")
+axes[0, 0].set_title("股票1")
+axes[0, 1].set_title("股票2")
+
+# 删除右下角坐标系
+axes[1, 1].remove()
+# 重新添加右下角坐标系（改变为三维坐标系）
+ax = fig.add_subplot(2, 2, 4, 
+                     projection='3d', facecolor="grey")
+ax.stem(seasons, stock1, stock2-stock1)
+ax.stem(seasons, stock1, stock2-stock1, 
+        linefmt='k--', basefmt='k--', 
+        bottom=10, orientation='y')
+ax.plot_surface(np.array([1,1,4,4]).reshape(2,2),
+                np.array([2.5,10,2.5,10]).reshape(2,2),
+                np.array([0]*4).reshape(2,2), 
+                alpha=0.2, color='red')
+ax.plot_surface(np.array([1,1,4,4]).reshape(2,2),
+                np.array([10]*4).reshape(2,2),
+                np.array([-2.5,8,-2.5,8]).reshape(2,2),
+                alpha=0.2, color='black')
+ax.set_xlabel("季度(x)")
+ax.set_ylabel("股票1(y)")
+ax.set_zlabel("差价(z)")
+plt.savefig("images/pic2_6.png", facecolor=fig.get_facecolor())
+plt.show()
+```
+![输入图片说明](/imgs/2022-10-30/FS0JOS5n4nczwnG7.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc2MjQ1MzEyLDE2MDI2OTQxMiw1Mzg4Nz
-A5MTMsMTYzNjcwNTEyMCwyNDI5MDc3OTgsLTQzMjU1OTc3OCwy
-NjE2MDAyLC0xNjYxNDYyODM1LDUyNzM0ODc3LC0yMDczNzM5NT
-AxLDM5NzE2NTgzMiwtMTU3MDQ3NDc4MSwtMjAwMTUwMjA2Niwt
-MTc0NjQ4NTQ5NCwtMzgyMDg1ODUxLC01MDc2NDgyOTksMTQzNT
-c2MTIsNjgwMzgwMzEyLDE2NzcwNzU2NDMsLTIxMzM1NTI1MzBd
+eyJoaXN0b3J5IjpbLTIwMjE5NTU2OTEsNjc2MjQ1MzEyLDE2MD
+I2OTQxMiw1Mzg4NzA5MTMsMTYzNjcwNTEyMCwyNDI5MDc3OTgs
+LTQzMjU1OTc3OCwyNjE2MDAyLC0xNjYxNDYyODM1LDUyNzM0OD
+c3LC0yMDczNzM5NTAxLDM5NzE2NTgzMiwtMTU3MDQ3NDc4MSwt
+MjAwMTUwMjA2NiwtMTc0NjQ4NTQ5NCwtMzgyMDg1ODUxLC01MD
+c2NDgyOTksMTQzNTc2MTIsNjgwMzgwMzEyLDE2NzcwNzU2NDNd
 fQ==
 -->
