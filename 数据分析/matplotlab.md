@@ -148,7 +148,7 @@ plt.show(
 
 ![输入图片说明](/imgs/2022-10-30/tMeFwqUkTGx9wJ6W.png)
 
-去掉多余的坐标系，同时使多个坐标系公用坐标轴，
+去掉多余的坐标系，同时使多个坐标系公用坐标轴，主标题，主侧标题，直方图上面多一个折线图
 ```python
 # 改进1: 去掉多余的坐标系
 # 面向对象(Object-oriented programming)精确语法
@@ -207,7 +207,7 @@ plt.show()
 ```
 ![输入图片说明](/imgs/2022-10-30/FS0JOS5n4nczwnG7.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU5MDM0NTQsNjc2MjQ1MzEyLDE2MD
+eyJoaXN0b3J5IjpbLTIwNDg0MjgyNzUsNjc2MjQ1MzEyLDE2MD
 I2OTQxMiw1Mzg4NzA5MTMsMTYzNjcwNTEyMCwyNDI5MDc3OTgs
 LTQzMjU1OTc3OCwyNjE2MDAyLC0xNjYxNDYyODM1LDUyNzM0OD
 c3LC0yMDczNzM5NTAxLDM5NzE2NTgzMiwtMTU3MDQ3NDc4MSwt
