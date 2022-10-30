@@ -216,12 +216,11 @@ axes[0, 0].set_facecolor('red')
 axes[0, 0].patch.set_alpha(0.2)
 plt.tight_layout()
 #tight_layout()是让画面更紧凑
-
-
-##Fi
 ```
+
+## Figure布局控制
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTEyMzE3NzAsLTEwNjIxOTAzNTUsNj
+eyJoaXN0b3J5IjpbLTE2MzA0MDY4ODUsLTEwNjIxOTAzNTUsNj
 c2MjQ1MzEyLDE2MDI2OTQxMiw1Mzg4NzA5MTMsMTYzNjcwNTEy
 MCwyNDI5MDc3OTgsLTQzMjU1OTc3OCwyNjE2MDAyLC0xNjYxND
 YyODM1LDUyNzM0ODc3LC0yMDczNzM5NTAxLDM5NzE2NTgzMiwt
