@@ -111,7 +111,7 @@ plt.plot()
 plt.show()
 #subplot()就是一个标记图分割的函数，211，分别表示2行1列第一个图
 ```
-使用面向对象
+使用面向对象画多个图
 ```python
 fig,axes=plt.subplots(2,1,figsize=(6,6))
 axes[0].bar()
@@ -119,13 +119,33 @@ axes[1].plot()
 plt.show()
 #subplot()就是一个标记图分割的函数，211，分别表示2行1列第一个图
 ```
+改进
+```python
+# 改进2: 利用右下角画一个3d图画
+# 面向对象OOP精确语法
+fig, axes = plt.subplots(2, 2, figsize=(6,6),facecolor="grey",sharex=True, sharey=True)
+axes[0, 0].bar(seasons, stock1)
+axes[0, 1].plot(seasons, stock2, "b^--")
+ax = axes[1, 0]
+ax.scatter(seasons, stock2-stock1,
+		   s=[10, 20, 50, 100],
+           c=['r', 'b', 'c', 'y'])
+ax.plot(seasons, stock2-stock1, "--", color="black")
+ax.set_ylabel("差价(股票1-股票2)")
+axes[0, 0].plot(seasons, stock1, 'r+-')
+fig.suptitle("股票分析图")
+fig.supylabel("股价")
+fig.supxlabel("季度")
+axes[0, 0].set_title("股票1")
+axes[0, 1].set_title("股票2")
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzkzNTM3MTgsNTM4ODcwOTEzLDE2Mz
-Y3MDUxMjAsMjQyOTA3Nzk4LC00MzI1NTk3NzgsMjYxNjAwMiwt
-MTY2MTQ2MjgzNSw1MjczNDg3NywtMjA3MzczOTUwMSwzOTcxNj
-U4MzIsLTE1NzA0NzQ3ODEsLTIwMDE1MDIwNjYsLTE3NDY0ODU0
-OTQsLTM4MjA4NTg1MSwtNTA3NjQ4Mjk5LDE0MzU3NjEyLDY4MD
-M4MDMxMiwxNjc3MDc1NjQzLC0yMTMzNTUyNTMwLDYyMDk4NTQw
-MF19
+eyJoaXN0b3J5IjpbMTYwMjY5NDEyLDUzODg3MDkxMywxNjM2Nz
+A1MTIwLDI0MjkwNzc5OCwtNDMyNTU5Nzc4LDI2MTYwMDIsLTE2
+NjE0NjI4MzUsNTI3MzQ4NzcsLTIwNzM3Mzk1MDEsMzk3MTY1OD
+MyLC0xNTcwNDc0NzgxLC0yMDAxNTAyMDY2LC0xNzQ2NDg1NDk0
+LC0zODIwODU4NTEsLTUwNzY0ODI5OSwxNDM1NzYxMiw2ODAzOD
+AzMTIsMTY3NzA3NTY0MywtMjEzMzU1MjUzMCw2MjA5ODU0MDBd
+fQ==
 -->
