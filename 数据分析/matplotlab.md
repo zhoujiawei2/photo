@@ -142,12 +142,39 @@ plt.show(
 
 
 ![输入图片说明](/imgs/2022-10-30/tMeFwqUkTGx9wJ6W.png)
+
+```python
+# 改进1: 去掉多余的坐标系
+# 面向对象(Object-oriented programming)精确语法
+fig, axes = plt.subplots(2, 2, figsize=(6, 6),
+                        facecolor="gre![输入图片说明](/imgs/2022-10-30/imyv9izffZkupcgq.png)y",  # 画面背景改为灰色
+                        sharex=True, sharey=True)  # 共享xy轴坐标系
+axes[0, 0].bar(seasons, stock1)
+axes[0, 1].plot(seasons, stock2, "b^--")
+ax = axes[1, 0]
+ax.plot(seasons, stock2-stock1, "--", color="black")
+ax.scatter(seasons, stock2-stock1, 
+           s=[10, 20, 50, 100],
+           c=['r', 'b', 'c', 'y'])
+ax.set_ylabel("差价(股票1-股票2)")
+axes[0, 0].set_title("股票1")
+axes[0, 1].set_title("股票2")
+
+# 可以删除最后一个坐标系
+axes[1, 1].remove()
+axes[0, 0].plot(seasons, stock1, 'r+-')
+fig.suptitle("股票分析图")
+fig.supylabel("股价")
+fig.supxlabel("季度")
+# plt.savefig("images/pic2_5.png", facecolor=fig.get_facecolor()) # 注: 保存图片底色要重新设置
+```
+![输入图片说明](/imgs/2022-10-30/5YQUvrVC48SDJd8o.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzQ3MzM2NywxNjAyNjk0MTIsNTM4OD
-cwOTEzLDE2MzY3MDUxMjAsMjQyOTA3Nzk4LC00MzI1NTk3Nzgs
-MjYxNjAwMiwtMTY2MTQ2MjgzNSw1MjczNDg3NywtMjA3MzczOT
-UwMSwzOTcxNjU4MzIsLTE1NzA0NzQ3ODEsLTIwMDE1MDIwNjYs
-LTE3NDY0ODU0OTQsLTM4MjA4NTg1MSwtNTA3NjQ4Mjk5LDE0Mz
-U3NjEyLDY4MDM4MDMxMiwxNjc3MDc1NjQzLC0yMTMzNTUyNTMw
-XX0=
+eyJoaXN0b3J5IjpbNDcyNDkzMzIsMTYwMjY5NDEyLDUzODg3MD
+kxMywxNjM2NzA1MTIwLDI0MjkwNzc5OCwtNDMyNTU5Nzc4LDI2
+MTYwMDIsLTE2NjE0NjI4MzUsNTI3MzQ4NzcsLTIwNzM3Mzk1MD
+EsMzk3MTY1ODMyLC0xNTcwNDc0NzgxLC0yMDAxNTAyMDY2LC0x
+NzQ2NDg1NDk0LC0zODIwODU4NTEsLTUwNzY0ODI5OSwxNDM1Nz
+YxMiw2ODAzODAzMTIsMTY3NzA3NTY0MywtMjEzMzU1MjUzMF19
+
 -->
