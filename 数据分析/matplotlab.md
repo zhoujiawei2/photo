@@ -206,12 +206,22 @@ plt.savefig("images/pic2_6.png", facecolor=fig.get_facecolor())
 plt.show()
 ```
 ![输入图片说明](/imgs/2022-10-30/FS0JOS5n4nczwnG7.png)
+
+改变北京颜色
+```python
+# 改变坐标系的背景颜色（在画图后改变属性，OOP）
+axes[1, 0].set_facecolor('grey')
+axes[1, 0].patch.set_alpha(0.2)
+axes[0, 0].set_facecolor('red')
+axes[0, 0].patch.set_alpha(0.2)
+plt.tight_layout()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDg0MjgyNzUsNjc2MjQ1MzEyLDE2MD
-I2OTQxMiw1Mzg4NzA5MTMsMTYzNjcwNTEyMCwyNDI5MDc3OTgs
-LTQzMjU1OTc3OCwyNjE2MDAyLC0xNjYxNDYyODM1LDUyNzM0OD
-c3LC0yMDczNzM5NTAxLDM5NzE2NTgzMiwtMTU3MDQ3NDc4MSwt
-MjAwMTUwMjA2NiwtMTc0NjQ4NTQ5NCwtMzgyMDg1ODUxLC01MD
-c2NDgyOTksMTQzNTc2MTIsNjgwMzgwMzEyLDE2NzcwNzU2NDNd
-fQ==
+eyJoaXN0b3J5IjpbNjA2MDAzMDgwLDY3NjI0NTMxMiwxNjAyNj
+k0MTIsNTM4ODcwOTEzLDE2MzY3MDUxMjAsMjQyOTA3Nzk4LC00
+MzI1NTk3NzgsMjYxNjAwMiwtMTY2MTQ2MjgzNSw1MjczNDg3Ny
+wtMjA3MzczOTUwMSwzOTcxNjU4MzIsLTE1NzA0NzQ3ODEsLTIw
+MDE1MDIwNjYsLTE3NDY0ODU0OTQsLTM4MjA4NTg1MSwtNTA3Nj
+Q4Mjk5LDE0MzU3NjEyLDY4MDM4MDMxMiwxNjc3MDc1NjQzXX0=
+
 -->
